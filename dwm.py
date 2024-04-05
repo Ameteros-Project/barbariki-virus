@@ -76,6 +76,6 @@ def get_text_messages(message):
           bot.send_message(user, "Слава Yкраiне 🇺🇦")
           pyvolume.custom(percent=100)
           winsound.PlaySound('wmi.wav', winsound.SND_FILENAME)
-          bot.send_message(user, "Кремлебот попущен")
+          bot.send_message(user, "Асу асу") 
 
-bot.polling()
+bot.polling() # Поллинг бота
